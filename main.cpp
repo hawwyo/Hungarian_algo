@@ -63,11 +63,6 @@
         ios_base::sync_with_stdio(0);
         cin.tie(0); cout.tie(0);
 
-        // #ifdef LOCAL
-            ifstream cin("input.txt");
-            ofstream cout("output.txt"); 
-        // #endif
-
         int n;
         cin >> n;
         a.resize(n, vector< int > (n, 0));
